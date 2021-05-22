@@ -1,0 +1,141 @@
+\documentclass [letterpaper,10pt]{article}
+\usepackage[margin=1.3cm]{geometry}
+\usepackage{colortbl}
+\usepackage{sectsty}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage[absolute]{textpos}
+\definecolor{lightgray}{gray}{0.85}
+\sethlcolor{lightgray}
+\renewcommand{\rmdefault}{ptm}
+\frenchspacing \pagestyle{empty}
+\sectionfont{ \sectionrule{0pt}{0pt}{-5pt}{1pt} }
+\newcommand{\NewPart}[1]{\section*{\large\textsc{#1}}}
+\begin{document}
+%\begin{textblock}{5}( 0.6 , 0.3)
+%\includegraphics[scale=0.3]{images.jpg}
+%\end{textblock}
+\begin{textblock}{5}( 6 , 1)
+\begin{flushleft}\textbf{{\LARGE \textsc{Kushagra Singhal}}}\end{flushleft}
+%Department of Electrical Engineering\\[0pt]
+%Indian Institute of Technology Kanpur\\[0pt]
+%Specialization: SP/Com}\end{flushleft}
+\end{textblock}
+\begin{textblock}{5}(12,1)
+\begin{flushleft}\textbf{kushagraiitk@gmail.com\\[0pt]
++917060989669}\end{flushleft}
+\end{textblock}
+\begin{textblock}{5}(0.9,1)
+	\begin{flushleft}\textbf{F-93 Kamla Nagar,\\[0pt]
+			Agra, UP, 282005}\end{flushleft}
+\end{textblock}
+.
+\vspace{25 pt}
+\NewPart{Education}{}
+\begin{tabular}{@{}p{15.5 cm}r}
+	\bf{University of Illinois at Urbana-Champaign (UIUC)} & \hfill \textbf{December 2016} \\
+	\begin{tabular}{p{2 cm} l r}
+		\textit{Degree} &  Master of Science in Electrical and Computer Engineering & \textit{CGPA} : 3.92/4.00 \\ 
+	\end{tabular}   \\
+\end{tabular}\\
+\begin{tabular}{@{}p{16 cm}r}
+	\bf{Indian Institute of Technology (IIT) Kanpur} &\hfil \textbf{June 2014} \\
+	\begin{tabular}{p{2 cm} l r}
+		\textit{Degree} &  B.Tech. and M.Tech. ( Dual Degree ) in Electrical Engineering &      \textit{CGPA} : 9.0/10.0 \& 10.0/10.0 \\
+	\end{tabular}   
+\end{tabular} 
+\vspace{-10pt}
+\NewPart{Work Experience}{}
+%\vspace{-3pt}
+%\textbf{Analyst (GT), Flipkart.com, Bangalore, India} \hfill\emph{(June - July 2014)}\\
+%\vspace{-16pt}
+%\begin{itemize} \itemsep -2.5pt
+%	\item Conceptualized a machine learning solution to optimize warehouse space utilization for apparels category
+%	\item Extracted features from historical warehouse data to cluster products into stocking categories and forecast high demand times 
+%\end{itemize}
+\vspace{-3pt}
+\textbf{Associate ( MRM\footnote{Model Risk Management} Group ), Goldman Sachs, Bangalore, India} \hfill\emph{(January 2019 - Present)}\\
+\vspace{-16pt}
+\begin{itemize} \itemsep -2.5pt
+	\item Overseeing the validation of all stress test models ( credit, mortgages ) used for risk management and regulatory submissions
+	\item Designed a model to forecast P\&L profile of credit cards (Apple Card) in financial crisis scenarios using FRED delinquency data
+	\item Developed a model to calibrate price and option adjusted spread time series for mortgage loans using Intex securitization data
+	
+\end{itemize}
+\vspace{-3pt}
+\textbf{Senior Analyst ( MRM Group ), Goldman Sachs, Bangalore, India} \hfill\emph{(January 2017 - December 2018)}\\
+\vspace{-16pt}
+\begin{itemize} \itemsep -2.5pt
+	\item Enhanced the jump-to-default risk model used by the firm to calculate exposures on various reference obligations
+	\item Worked on global market stress scenario development and validation for submission to the FRB\footnote{Federal Reserve Board} as a part of the CCAR\footnote{Comprehensive Capital Analysis and Review} process
+	\item Developed regression models to calibrate risk factor moves in credit spread widening scenarios used to set desk trading limits
+\end{itemize}
+%\vspace{-3pt}
+%\textbf{Programming Intern, Vrije Universteit Brussels, Belgium} \hfill\emph{(May - July 2012)}\\
+%\vspace{-16pt}
+%\begin{itemize} \itemsep -2.5pt
+%	\item Applied estimation techniques to identify unknown linear system models based on known inputs and noisy outputs
+%	\item Assisted doctoral students in implementing system identification algorithms efficiently in MATLAB 
+%	\item Instructed undergraduate students at VUB in basics of MATLAB programming
+%\end{itemize}
+\vspace{-15pt}
+\NewPart{Research Experience and Academic Projects}{}
+\textbf{Social Network Deanonymization using Side Information} \emph{(Research Assistant, UIUC)}\hfill\emph{(August - December 2016)}\\
+\vspace{-16pt}
+\begin{itemize} \itemsep -2.5pt
+	\item Designed an algorithm to match users across two correlated social graphs using community structure as side information
+	\item Proved the algorithm's asymptotic correctness, using tools from probability and graph theory, for matching random graphs 
+	\item Highlighted privacy issues in releasing social network datasets by mapping users across large real networks with low error rates
+\end{itemize}
+\textbf{Enabling Privacy Preserving Data Analytics for Anonymized Networks} \emph{(Research Assistant, UIUC)}\hfill \emph{(August 2014-July 2015)}\\
+\vspace{-16pt}
+\begin{itemize} \itemsep -2.5pt
+	\item Analyzed the problem of preserving community structure without privacy breach while releasing anonymized social network data 
+	\item Derived asymptotic converse \textbf{(first in literature)} and improved achievability \textbf{(by a factor of $\mathbf{4}$)} bounds for matching correlated random graphs generated using the Stochastic Block Model
+\end{itemize}
+\textbf{Two Dimensional Source Localization using Spherical Arrays} \emph{(Dual Degree Thesis, IIT Kanpur)}\hfill\emph{(May 2013 - May 2014)}\\
+\vspace{-16pt}
+\begin{itemize} \itemsep -2.5pt
+	\item Modeled the speech multi-source localization problem in two dimensions using the spherical microphone array
+	\item Developed a sparse reconstruction algorithm based on partial dictionaries to estimate sources' elevation and azimuth
+	\item Improved resolution probability and demonstrated application to source tracking in noisy environments for different trajectories
+\end{itemize}
+%\textbf{Data Structure for Dynamic Paths } \emph{(Course Project : Design and Analysis of Algorithms , IIT Kanpur)}\hfill\emph{(January - April 2012)}\\
+%\vspace{-15pt}
+%\begin{itemize} \itemsep -2.5pt
+%	\item Designed an AVL tree based data structure to represent weighted and directed dynamic paths 
+%	\item{Developed an efficient algorithm to perform operations (splitting and merging of two directed paths, reversing paths, add	weight) and answer queries (minimum weight edge, reachability) in O($\log n$) time}
+%	\item Implemented the algorithm in C for large scale paths and passed highest number of test cases in the class out of over $50$ students
+%	\end{itemize}
+\vspace{-15pt}
+\NewPart{Technical Proficiency}{}
+\begin{itemize}\itemsep -2.5pt
+	\item Proficient in C, C++, MATLAB, Python, \LaTeX
+	\item Familiar with SQL, Octave, HTML, JAVA, Pajek, R, Weka, CVX (Optimization Software)
+%	\item Data Structures, Design and Analysis of Algorithms, Probability and Statistics, Statistical Learning Theory, Stochastic Processes, Graph Theory, Linear Algebra, Statistical Signal Processing, Convex Optimization
+\end{itemize}
+\vspace{-15pt}
+\NewPart{Scholastic Achievements}{}
+\vspace{-3pt}
+\begin{itemize}\itemsep -2.5pt
+	\item Awarded {\textbf{Institute Silver Medal}} for graduating top of the Electrical Engineering class at IIT Kanpur
+	\item Achieved \textbf{All India Rank 443} (99.9 percentile) in IIT Joint Entrance Examination (JEE) 2009 among 400000 applicants
+%	\item Authored $\mathbf{5}$ \textbf{peer reviewed} and $\mathbf{2}$ submitted research papers pertaining to signal processing and social network analysis
+	%\item Achieved $\mathbf{99.3}$ \textbf{percentile} in Graduate Aptitude Test in Engineering (GATE) 2013
+\end{itemize}
+\vspace{-15pt}
+\NewPart{Scientific Contributions}{}
+\begin{itemize}\itemsep -2.5pt
+	\item{ {\bf{K. Singhal}}, N. Kiyavash, ``Significance of Side Information in the Graph Matching Problem'', ArXiv Preprint.}
+	\item{D. Cullina, {\bf{K. Singhal}}, N. Kiyavash, P. Mittal, ``On the Simultaneous Preservation of Privacy and Community Structure in Anonymized Networks'', ArXiv Preprint. }
+	\item{ {\bf{K. Singhal}}, R. M Hegde, ``A Sparse Reconstruction Method for Speech Source Localization using Partial Dictionaries over a Spherical Microphone Array'', InterSpeech, Singapore, Sep. 2014. }
+	\vspace{-7pt}
+	%\item L. Kumar; K. Singhal; R. Sinha; R. M. Hegde, ``Significance of the MUSIC-Group Delay Method in an ICA-Beamforming Framework for Speech Separation in Multi Source Environment", NCC-2013.
+\end{itemize}
+
+
+
+\end{document}
